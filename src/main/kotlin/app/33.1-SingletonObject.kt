@@ -20,4 +20,21 @@ fun main() {
     val function = Utilities.toUpper("otniel");
     println(function);
 
+    // Contoh PZN
+    val result = Utilities.toUpper("leinto");
+    println(result);
+    println(Utilities.name);
+
+    Utilities.name = "Diubah"; //re-assigned
+    a();
+    b();
+
+}
+
+fun a() {
+    println(Utilities.name);
+}
+
+fun b() {
+    println(Utilities.name)
 }

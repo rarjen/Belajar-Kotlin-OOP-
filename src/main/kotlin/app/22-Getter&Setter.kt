@@ -14,7 +14,7 @@ fun main() {
 
     val note = Note("Diary");
 
-    note.title = "Dear Diary"; // otomatis eksekusi title
+    note.title = "Dear Diary"; // otomatis eksekusi set title
     println(note.title); // otomatis eksekusi get
 
     /*
