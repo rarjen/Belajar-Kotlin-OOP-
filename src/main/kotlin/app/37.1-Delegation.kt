@@ -20,7 +20,7 @@ fun main() {
 
     // sebenarnya ini memanggil say hello dari object base
     val baseDalegate = Delegate(base);
-    baseDalegate.sayHello("Leinto");
+    baseDalegate.sayHello("Leinto"); //Hello Leinto
     baseDalegate.sayGoodBye("Nikola");
 
     val delegasi = Delegasi(base);
